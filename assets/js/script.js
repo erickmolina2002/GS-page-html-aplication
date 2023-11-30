@@ -14,7 +14,16 @@ sendData.addEventListener('click', () => {
     const email = emailInput.value;
     const validatName = validName(name);
     const validatEmail = validEmail(email);
-
+    if (!validatName){
+        nameInput.classList.add('shake');
+        setTimeout(() => {nameInput.classList.toggle('shake');
+    }, 500);
+    }
+    if (!validatEmail){
+        emailInput.classList.add('shake');
+        setTimeout(() => {emailInput.classList.toggle('shake');
+    }, 500);
+    }
     if (validatEmail && validatName) {
         const section = document.getElementById('form-data');
         section.style.height = '6rem';

@@ -25,11 +25,6 @@ h3 {
     font-weight: bold;
 }
 
-img {
-    max-width: 100%;
-}
-
-
 menu {
     display: flex;
     justify-content: space-around;
@@ -259,6 +254,7 @@ form#data-user input {
     padding: 1rem;
     border: none;
     font-size: large;
+    transition: transform 1s ease-in-out, border-color 2s ease-in-out;
 }
 
 form#data-user label {
@@ -320,7 +316,7 @@ section#contact form{
     border-radius: 3rem;
 }
 
-.error-message p {
+span.error-message p {
     margin: 0;
     padding: 0;
     color: red;
@@ -328,17 +324,17 @@ section#contact form{
     font-weight: bold;
 }
 
-.error-message {
+span.error-message {
     opacity: 0;
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-.show-error {
+span.show-error {
     opacity: 1;
     transform: translateY(0);
 }
 
-.label-input {
+div.label-input {
     width: 15rem;
     height: 5rem;
     display: flex;
@@ -348,21 +344,21 @@ section#contact form{
     gap: .5rem;
 }
 
-.success-input {
+input.success-input {
     border: 2px solid #4CAF50 !important;
     transition: border-color 0.3s ease-in-out !important;
 }
 
-.error-input {
+input.error-input {
     border: 2px solid red !important;
     transition: border-color 0.3s ease-in-out !important;
 }
 
-#show-message {
+div#show-message {
     transition: opacity 3s ease-in-out;
 }
 
-#programers {
+span#programers {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -426,3 +422,18 @@ div#text-economic p{
    padding-left: 0;
 }
 
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-5px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(5px);
+    }
+}
+
+.shake {
+    animation: shake 0.5s ease-in-out;
+}

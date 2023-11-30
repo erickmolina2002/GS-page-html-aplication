@@ -24,8 +24,9 @@ sendData.addEventListener('click', () => {
             </div>
             `;
         setTimeout(() => {
-            section.style.height = '20rem';
-            section.style.width = '40rem';
+            section.style.height = '26rem';
+            section.style.width = '50rem';
+            section.style.borderRadius = '3rem';
             section.innerHTML = `
             <span id="programers">
         <div class="card-image">

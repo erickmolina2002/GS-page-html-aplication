@@ -18,6 +18,7 @@ sendData.addEventListener('click', () => {
     if (validatEmail && validatName) {
         const section = document.getElementById('form-data');
         section.style.height = '6rem';
+        section.style.width = '30rem';
         section.innerHTML = `
             <div id="show-message" >
                 <p>${name.charAt(0).toUpperCase() + name.slice(1)} Agradecemos o contato!!</p>
@@ -25,7 +26,7 @@ sendData.addEventListener('click', () => {
             `;
         setTimeout(() => {
             section.style.height = '26rem';
-            section.style.width = '50rem';
+            section.style.width = '55rem';
             section.style.borderRadius = '3rem';
             section.innerHTML = `
             <span id="programers">

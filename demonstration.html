@@ -1,37 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/assets/image/minilogo.ico" type="image/x-icon">
+    <title>HealthTime Informer</title>
     <link rel="stylesheet" href="/assets/css/style.css">
-    <title>Document</title>
+    <script src="/assets/js/script.js" defer></script>
 </head>
+
 <body>
     <menu>
-        <a href="/index.html"><img id="container-img" src="/assets/image/" alt="Hapvida"></a>
+        <a class="logo" href="/index.html"><img id="container-img" src="/assets/image/minilogo.png" alt="HealthTime Informer"></a>
         <div id="menu-text">
             <a href="/index.html">Home</a>
-            <a href="/problemSolution.html">Problema&Solução</a>
-            <a href="/demonstration.html">Demonstracao da Solucao</a>
+            <a href="/problemSolution.html">Problema-Solução</a>
+            <a href="/demonstration.html">Demonstracao da Solução</a>
             <a href="/contact.html">Contato</a>
         </div>
     </menu>
-    <section id="solution">
-        <h1>TÍTULO</h1>
-        <div id="text-solution">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eveniet suscipit corporis
-                sequi, cumque ducimus consectetur reiciendis! Eius harum necessitatibus nostrum ipsum illum
-                doloremque, ut aut id modi officia facilis?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eveniet suscipit corporis
-                sequi, cumque ducimus consectetur reiciendis! Eius harum necessitatibus nostrum ipsum illum
-                doloremque, ut aut id modi officia facilis?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eveniet suscipit corporis
-                sequi, cumque ducimus consectetur reiciendis! Eius harum necessitatibus nostrum ipsum illum
-                doloremque, ut aut id modi officia facilis?
-
-            </p>
+    <h2>Demonstração</h2>
+    <section class="solution">
+        <div class="text-solution">
+        <h3>Como Funciona</h3>
+            <ol>
+                <li><strong>Cálculo do Tempo de Demora:</strong>
+                    <p>
+                        Ao utilizar algoritmos avançados, analisamos em tempo real
+                        a demanda atual nos hospitais parceiros. Isso nos permite estimar com precisão o tempo de espera
+                        em cada
+                        local, fornecendo informações transparentes sobre a demora potencial.
+                    </p>
+                </li>
+                <li><strong>Tempo da Rota até o Hospital:</strong>
+                    <p>
+                        Além do tempo de espera, consideramos o tempo
+                        necessário
+                        para chegar a cada hospital disponível. Incorporamos dados de trânsito em tempo real e a
+                        localização
+                        do
+                        usuário para calcular o tempo estimado de deslocamento até cada unidade de saúde.
+                    </p>
+                </li>
+                <li><strong>Escolha Informada:</strong>
+                    <p>
+                        Com base nos cálculos detalhados de tempo de espera e tempo de
+                        rota,
+                        apresentamos uma lista personalizada de opções de hospitais, destacando o local que oferece o
+                        equilíbrio
+                        ideal entre a menor espera e o tempo mais curto de deslocamento.
+                    </p>
+                </li>
+            </ol>
         </div>
-        <a href="">Saiba Mais!</a>
+        <img src="/assets/image/fila.png" alt="Fila">
     </section>
+    <section class="solution">
+        <img src="/assets/image/fila2.png" alt="Fila 2">
+        <div class="text-solution">
+            <h3>Benefícios</h3>
+            <ul>
+                <li><strong>Tomada de Decisão Empoderada:</strong> Os usuários têm acesso a informações cruciais para
+                    tomar
+                    decisões informadas sobre onde buscar atendimento, considerando tanto a proximidade quanto a
+                    eficiência
+                    no atendimento.</li>
+                <li><strong>Redução do Tempo de Espera:</strong> Ao direcionar os pacientes para os hospitais mais
+                    adequados, contribuímos para a redução global do tempo de espera, otimizando recursos e garantindo
+                    atenção médica rápida quando necessário.</li>
+                <li><strong>Eficiência na Resposta a Emergências:</strong> Agilidade é a chave em situações de
+                    emergência. A
+                    HealthTime visa proporcionar não apenas escolhas mais inteligentes, mas também uma resposta mais
+                    rápida
+                    e eficaz em momentos críticos.</li>
+            </ul>
+        </div>
+    </section>
+    <span id="saiba-mais">
+        <a href="#" class="button">Saiba Mais</a>
+    </span>
 </body>
+
 </html>

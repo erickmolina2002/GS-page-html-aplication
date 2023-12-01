@@ -436,9 +436,11 @@ div#text-economic p{
 .shake {
     animation: shake 0.5s ease-in-out;
 }
+
 footer {
-    background-color: #b7b7b7;
+    padding-top: 10rem;
     height: 3rem;
+    margin-top: auto;
 }
 
 

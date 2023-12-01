@@ -436,3 +436,17 @@ div#text-economic p{
 .shake {
     animation: shake 0.5s ease-in-out;
 }
+footer {
+    background-color: #b7b7b7;
+    height: 3rem;
+}
+
+
+#copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #80b2ad;
+    height: 4rem;
+    color: #fff;
+}

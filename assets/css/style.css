@@ -148,8 +148,7 @@ section#home-video {
     align-items: center;
     justify-content: space-around;
     gap: 4rem;
-    width: 100vw;
-    height: 93vh;
+    padding: 15rem;
     overflow: hidden;
 }
 
@@ -171,11 +170,12 @@ section#home-video div {
 }
 
 section#solution-problem {
-    height: 60vh;
+    padding: 15rem;
     display: flex;
     gap: 4rem;
     align-items: center;
     justify-content: center;
+    padding: 1rem;
 }
 
 div#text-solution-problem {
@@ -199,7 +199,7 @@ img#pc{
 }
 
 section.solution {
-    width: 100vw;
+    padding: 15rem;
     height: 40rem;
     display: flex;
     align-items: center;
@@ -292,8 +292,7 @@ div#form-data {
 }
 
 section#contact {
-    width: 100vw;
-    height: 93vh;
+    padding: 15rem;
     display: flex;
     align-items: center;
     justify-content: center;

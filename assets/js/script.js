@@ -40,7 +40,7 @@ sendData.addEventListener('click', () => {
             section.innerHTML = `
             <span id="programers">
         <div class="card-image">
-            <img src="/assets/image/erick.png" alt="">
+            <img src="./assets/image/erick.png" alt="">
             <table>
                 <tr>
                     <td>Nome</td>
@@ -54,7 +54,7 @@ sendData.addEventListener('click', () => {
 
         </div>
         <div class="card-image">
-            <img src="/assets/image/edu.png" alt="">
+            <img src="./assets/image/edu.png" alt="">
             <table>
                 <tr>
                     <td>Nome</td>
